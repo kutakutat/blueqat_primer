@@ -1,9 +1,22 @@
-# 
+# 概要
 
-## docker を起動
+## [bluwqat](https://github.com/Blueqat/Blueqat)
+量子コンピューターのSDK
+
+## インストール
+```
+git clone https://github.com/kutakutat/blueqat_primer.git
+```
+
+## 実行ファイル
+/opt/blueqat_demo.py
+あらかじめ代表的な量子回路を関数として組んでいます
+
+# 手順
 
 ## 環境構築
-docker-compose.yml のある ディレクトリで実行
+docker を起動した状態で
+docker-compose.yml のある ディレクトリで以下を実行
 ```
 docker-compose up -d --build
 ```
@@ -21,7 +34,7 @@ cd ./opt
 python
 ```
 
-## blueqat を計算
+## blueqat で計算
 ```
 >>> from blueqat_demo import *
 >>> plus_2qbit(100) # 足し算 を 100回
