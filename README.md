@@ -1,6 +1,6 @@
 # 概要
 
-## [bluwqat](https://github.com/Blueqat/Blueqat)
+## [blueqat](https://github.com/Blueqat/Blueqat)
 量子コンピューターのSDK
 
 ## インストール
